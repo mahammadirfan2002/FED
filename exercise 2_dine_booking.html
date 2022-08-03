@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Dine booking</title>
+        <style>
+            .one{
+              border-style:solid;
+              border-width:5px;
+              border-color:lightblue;
+            }
+        </style>
+        
+    </head>
+    <body class="one">
+    
+     <center>
+      
+      <table >
+        <tr ><td colspan="2" align="center"><h1>Dine Booking</h1></td></tr>
+
+        <tr>
+          <td> visitor name:</td>
+          <td><input maxlength="20" autofocus size="10" required ></td><br></tr>
+        <tr>
+          <td>Number of members:</td>
+          <td><input type="number" max="99" size="25"></td><br>
+        </tr> 
+        <tr>
+           <td>Contact no:</td>
+           <td><input type="number" maxlength="10" size="15"></td><br>
+        </tr> 
+        <tr>
+          <td>Email:</td> 
+          <td><input type="email" size="15"></td><br> 
+        </tr>
+        <tr>
+           <td>Type of food:</td> 
+           <td><input type="checkbox"  required/>South Indian</td> 
+           <td><input type="checkbox" required/>North Indian</td> 
+           <td><input type="checkbox" required/>Chinnese</td>
+           <td><input type="checkbox" required/>Western<br></td>
+        </tr>
+        <tr>
+          <td>Room status:</td> 
+          <td><input type="radio" required>Ac</td>
+          <td><input type="radio" required>nonAc<br></td>
+        </tr>
+        <tr>
+          <td>Venue Preference:</td> 
+          <td><select>
+                <option>--Select--</option>
+                <option>Arena</option>
+                <option>Fiesta</option>
+                <option>Vista</option>
+                <option>Mythri</option>
+                <option>Magna</option>
+                <option>Oasis</option>
+                <option>Amoeba</option>
+              </select></td><br>
+        </tr>
+        <tr>
+           <td><input type="submit" value="Book"></td>
+           <td><input type="reset" ></td>
+        </tr>
+     </center>
+    </body>
+</html>
